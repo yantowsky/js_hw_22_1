@@ -1,0 +1,92 @@
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: normal;
+  background-color: lightgray;
+}
+
+img {
+  max-width: 768px;
+  height: fit-content;
+  object-fit: cover;
+}
+
+button {
+  font-size: 2rem;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 10px 7px gray;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  color: white;
+  background-color: black;
+}
+
+.wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap-button {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+}
+
+.slider {
+  width: 768px;
+  height: 480px;
+  border: 2px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 5px 10px 7px gray;
+}
+
+.slider-line {
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.pointer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pointer__item {
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 5px 10px 7px gray;
+}
+
+.pointer__item:hover {
+  cursor: pointer;
+}
+
+.pointer__item--mod {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 5px 10px 7px gray;
+}
